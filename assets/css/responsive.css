@@ -1,0 +1,28 @@
+@media(max-width: 1024px) {
+    .profile-card {
+        padding: 30px;
+        height: 355px;
+    }
+    .profile-card-img{
+        height: 355px;
+    }
+    .footer-one h3, .footer-two h3 {
+        font-size: 35px;
+    }
+}
+
+@media(max-width: 990px) {
+    .profile-card {
+        padding: 30px;
+        height: 400px;
+    }
+    .profile-card-img{
+        height: 400px;
+    }
+}
+@media(max-width: 550px) {
+    .profile-card, .software-tools {
+        padding: 30px;
+        height: fit-content;
+    }
+}
